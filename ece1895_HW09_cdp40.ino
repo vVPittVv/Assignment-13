@@ -1,5 +1,5 @@
 void setup() {
-  pinMode(8, OUTPUT);    // sets the digital pin 9 (IC pin 14) as output
+  pinMode(8, OUTPUT);    // sets the digital pin 8 (IC pin 14) as output
   pinMode(7, INPUT);     // Sets the digital pin 7 (IC pin 13) as input
   
 }
@@ -16,9 +16,9 @@ void loop() {
   if (val == HIGH) {
 
     // Perform the blinking by periodically turning light on and off
-    digitalWrite(8, HIGH); // sets the digital pin 9 on
+    digitalWrite(8, HIGH); // sets the digital pin 8 on
     delay(1000);            // waits for a second
-    digitalWrite(8, LOW);  // sets the digital pin 9 off
+    digitalWrite(8, LOW);  // sets the digital pin 8 off
     delay(1000);            // waits for a second
     
   }
