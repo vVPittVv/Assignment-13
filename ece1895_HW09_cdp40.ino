@@ -1,3 +1,4 @@
+// Charlie Peters
 void setup() {
   pinMode(8, OUTPUT);    // sets the digital pin 8 (IC pin 14) as output
   pinMode(7, INPUT);     // Sets the digital pin 7 (IC pin 13) as input
