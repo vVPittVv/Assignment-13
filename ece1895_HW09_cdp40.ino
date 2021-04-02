@@ -1,7 +1,6 @@
-
+// Charlie Peters
 //Eric made this comment, eat44
 //Sean Albright
-
 
 void setup() {
   pinMode(8, OUTPUT);    // sets the digital pin 8 (IC pin 14) as output
@@ -29,3 +28,4 @@ void loop() {
   }
   
 }
+
